@@ -17,7 +17,7 @@ export default function MessageTest() {
                             Four lines to describe the message/article to be highlighted. The text is accompanied by an illustration in the top right-hand corner.
                         </Text>
                     </View>
-                    <Image source={require('./assets/Illustrations.png')} />
+                    <Image source={require('../assets/Illustrations.png')} />
                 </View>
 
                 <View style={styles.cardButtonCont}>
