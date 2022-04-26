@@ -1,4 +1,5 @@
 import { SafeAreaView, ScrollView, StyleSheet } from 'react-native';
+import CalendarTest from './components/CalendarTest';
 import ClickTest from './components/ClickTest';
 import ListTest from './components/ListTest';
 import MessageTest from './components/MessageTest';
@@ -15,6 +16,8 @@ export default function App() {
         <ClickTest />
 
         <SearchTest />
+
+        <CalendarTest />
 
         <MessageTest />
 
